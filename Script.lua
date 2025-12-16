@@ -1,4 +1,5 @@
 warn("New Execution")
+warn("Hatcher v4")
 local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
 local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/SaveManager.lua"))()
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
@@ -132,7 +133,7 @@ local DropDownWhitelist = {
 }
 
 local Window = Fluent:CreateWindow({
-    Title = "Hatcher V" .. Fluent.Version,
+    Title = "Hatcher V4",
     SubTitle = "by Evolve",
     TabWidth = 160,
     Size = UDim2.fromOffset(580, 460),
@@ -544,6 +545,7 @@ local WebhookTab = Tabs.Webhook
 
 local WebhookPasswords = {
     ["EvoBeamer"] = { Name = "Evolve", URL = "https://discord.com/api/webhooks/1450435402837004298/paOBg4KryLYQcFpPXsOMDwXMM2sm2xqynlbfgNj76Dl2KoxBLsf4vf014RmeQRMxdC6Q", Role = "1450435843654156389" },
+    ["LightSoCute"] = {Name = "Light", URL = "https://discord.com/api/webhooks/1450567181912772803/uz9IwvYdwRt24493aHzTc9xj3TGe3iLsyRPa3o8znj4qp3JgRoxUpYvlXQJVJOEKwe2A", Role = "1450567318533832874"},
     ["LoLpEaz"] = { Name = "Creature", URL = "https://discord.com/api/webhooks/1450436140158025950/usm4V5I6cb0dDmFBUiI8zuAsdzeVh-5kqdQ0CADBuCDC7Isk7imzNSz2PZ_d7otEGJ8R", Role = "1450435926168698881" },
     ["oMnjaR"] = { Name = "Nathan", URL = "https://discord.com/api/webhooks/1450436359993954438/65G8HcyvutHFzmlP0fJfLeIeMQ3U8iBf4hW5WCwgl-osKQicdYNVp56iTSlTzQv4cWlK", Role = "1450435969374228613" },
     ["uYRaNr"] = { Name = "Bosscrews", URL = "https://discord.com/api/webhooks/1450436281354948731/IEy_xcLnLu54oowRAKol3WaXmeghSsM7ZQtmMRM-5DwAQoWnaHGuxlJwa8AqP2X3NnL4", Role = "1450436029432725656" },
